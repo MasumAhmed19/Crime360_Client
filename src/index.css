@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+
+.active {
+  color: white!important;
+
+}
+
+.dropdownMenu{
+  @apply flex gap-2 text-base capitalize menu menu-sm dropdown-content rounded-box bg-base-100 z-[1] mt-3 w-52 p-2 shadow
+}
+
+.navlink{
+  @apply px-5 py-2 text-[14px] uppercase font-bold rounded-md text-white/80 hover:text-white transition duration-200
+}
+
+.taglink{
+  @apply px-2 py-1 bg-[#ECE5FE] text-[#7201FF] rounded-full
+}
+
+/* slider related */
+.swiper-button-prev, .swiper-button-next {
+  color: #ffffff!important;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #ffffff!important;
+}
+
+
+/* Button related */
+.btn1{
+  @apply px-2 md:px-5 md:py-2 rounded-3xl bg-red-800 text-[#ffffff] 
+}
+
+.btn-active1{
+  @apply  bg-[#7201FF] text-[#ffffff] hover:bg-[#7201FF]
+
+}
+
+
+/* input */
+.input1{
+  @apply mt-1 block w-full rounded-md border-black
+}
+
+
+
+/* Gradient */
+
+.g1 {
+  background: linear-gradient(to right, transparent, #ECE5FE, transparent);
+}
+
+.g2 {
+  background: linear-gradient(to right, #ECE5FE, transparent, #ECE5FE);
+}
+
+.g3 {
+  background: linear-gradient(#ECE5FE, transparent);
+}
+
+.g4 {
+  background:  radial-gradient(#ece5fe, black)
+}
+
+.g5 {
+  background: linear-gradient(transparent, #ECE5FE);
+}
+
+.g6 {
+  background: linear-gradient(to right, #d21f64, #f71130, #d21f64);
+  /* background: linear-gradient(to right, #0645A0, #00CBF9, #0645A0); */
+}
+
+.heading1{
+  @apply text-2xl lg:text-4xl font-semibold
+}
+
+
+
+
+/* text color */
+
+.ht1{
+  @apply text-[#2D3E52]
+}
+
